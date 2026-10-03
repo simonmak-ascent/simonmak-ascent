@@ -26,8 +26,9 @@ Practical, rigorous tools for ESG, valuation, accessibility, and AI-agent automa
 | [intangible-valuation](https://github.com/simonmak-ascent/intangible-valuation) | Intangible-asset valuation library + MCP server |
 | [hkex-filing-scraper](https://github.com/simonmak-ascent/hkex-filing-scraper) | HKEx regulatory filings → SurrealDB with PDF extraction & graph linking |
 | [opencode-workbench](https://github.com/simonmak-ascent/opencode-workbench) | One-command reproducibility for an AI-agent workstation |
-| [primary-sources-mcp](https://github.com/simonmak-ascent/primary-sources-mcp) | Free primary-source APIs for AI agents (SEC, World Bank, GDELT, FRED, HKMA…) |
 | [depression-sensitive-web-content](https://github.com/simonmak-ascent/depression-sensitive-web-content) | Cognitive accessibility & emotional-safety auditing skill |
+
+> Also private: `valuation-data-mcp` — cited, deterministic valuation inputs for the calculators above (keyed MCP server, read-only over the valuation database).
 
 ## MCP servers
 
