@@ -1,17 +1,24 @@
+<p align="center">
+  <a href="https://github.com/simonmak-ascent?tab=repositories">Repositories</a> ·
+  <a href="https://github.com/simonmak-ascent?tab=projects">Projects</a> ·
+  <a href="https://github.com/simonmak-ascent?tab=packages">Packages</a> ·
+  <a href="https://github.com/simonmak-ascent?tab=stars"><b>Lists</b></a>
+</p>
+
 # Simon Mak 麥沛霖
 
 **Entrepreneur. Author. Sustainability Advocate.**
 
 Connecting finance and sustainability — building open-source AI/MCP tooling for ESG, valuation, and accessibility.
 
-I've spent my career at the intersection of finance and sustainability. As a CFA
-Charterholder who became Vice Chairman and CEO of Hong Kong's leading
-environmental NGO on a pro bono basis, I've learned that lasting change requires
+I&#39;ve spent my career at the intersection of finance and sustainability. As a CFA
+Charterholder who became Vice Chairman and CEO of Hong Kong&#39;s leading
+environmental NGO on a pro bono basis, I&#39;ve learned that lasting change requires
 both financial rigor and environmental conviction.
 
-- 🏢 Founder & CEO, [Ascent Partners Group](https://ascent-partners.com) — corporate valuation & ESG advisory (200+ listed companies served)
+- 🏢 Founder &amp; CEO, [Ascent Partners Group](https://ascent-partners.com) — corporate valuation &amp; ESG advisory (200+ listed companies served)
 - 🌏 Founder, Ascent Partners Foundation — conservation across Asia-Pacific
-- 🎓 B.Sc. Mathematics & Computer Science, McGill University
+- 🎓 B.Sc. Mathematics &amp; Computer Science, McGill University
 - 📜 CFA · CMA · MIPA · Cambridge Institute for Sustainability Leadership
 - 🌐 [simonmak.com](https://www.simonmak.com) · [LinkedIn](https://www.linkedin.com/in/simonmak88/)
 
@@ -50,10 +57,10 @@ Practical, rigorous tools for ESG, valuation, accessibility, and AI-agent automa
 | [startup-valuation](https://github.com/simonmak-ascent/startup-valuation) | 80+ startup valuation formulas + MCP server + AI-agent skills |
 | [intangible-valuation](https://github.com/simonmak-ascent/intangible-valuation) | Intangible-asset valuation library + MCP server |
 | [fair-value](https://github.com/simonmak-ascent/fair-value) | IFRS/IVS valuation engine + MCP server (DCF, WACC/FF5, KMV, derivatives) |
-| [esg-hub](https://github.com/simonmak-ascent/esg-hub) | ESG knowledge & reporting platform + public API + MCP server |
-| [hkex-filing-scraper](https://github.com/simonmak-ascent/hkex-filing-scraper) | HKEx regulatory filings → SurrealDB with PDF extraction & graph linking |
+| [esg-hub](https://github.com/simonmak-ascent/esg-hub) | ESG knowledge &amp; reporting platform + public API + MCP server |
+| [hkex-filing-scraper](https://github.com/simonmak-ascent/hkex-filing-scraper) | HKEx regulatory filings → SurrealDB with PDF extraction &amp; graph linking |
 | [opencode-workbench](https://github.com/simonmak-ascent/opencode-workbench) | One-command reproducibility for an AI-agent workstation |
-| [depression-sensitive-web-content](https://github.com/simonmak-ascent/depression-sensitive-web-content) | Cognitive accessibility & emotional-safety auditing skill |
+| [depression-sensitive-web-content](https://github.com/simonmak-ascent/depression-sensitive-web-content) | Cognitive accessibility &amp; emotional-safety auditing skill |
 
 > Also private: `valuation-data-mcp` — cited, deterministic valuation inputs for the calculators above (keyed MCP server, read-only over the valuation database).
 
