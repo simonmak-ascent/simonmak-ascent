@@ -1,0 +1,27 @@
+name: check
+
+# Required status check for the profile repository: must report on every PR.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: check
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Repository hygiene
+        run: |
+          set -eu
+          test -s README.md || { echo "README.md is missing or empty"; exit 1; }
+          files="$(git ls-files | wc -l)"
+          [ "$files" -gt 0 ] || { echo "repository is empty"; exit 1; }
+          big="$(find . -path ./.git -prune -o -type f -size +1M -print)"
+          [ -z "$big" ] || { echo "files over 1MB:"; echo "$big"; exit 1; }
+          echo "profile repository ok ($files files)"
