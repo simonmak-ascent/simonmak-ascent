@@ -29,7 +29,7 @@ No install — point any MCP client at a hosted endpoint (Streamable HTTP):
 | MCP server | Endpoint |
 | --- | --- |
 | fair-value | `https://fair-value.ascent-partners.com/mcp` |
-| intangible-valuation | `https://intangible-valuation.simonmak.com/api/mcp` |
+| intangible-valuation | `https://intangible-valuation.ascent-partners.com/api/mcp` |
 | hkex-filings | `https://hkex-listco-updates.ascent-partners.com/api/mcp` |
 | vision-driven-design | `https://vdd.simonmak.com/api/mcp` |
 
@@ -44,7 +44,6 @@ flowchart TB
   AGENT --> VAL["Valuation MCPs<br/>startup · intangible · fair-value"]
   AGENT --> ESG["esg-hub<br/>ESG reporting"]
   FIL["hkex-filing-scraper<br/>filings → SurrealDB"] --> VAL
-  ACCESS["depression-sensitive-web-content<br/>accessibility audit"] --> AGENT
 ```
 
 ## Open source
@@ -59,10 +58,8 @@ Practical, rigorous tools for ESG, valuation, accessibility, and AI-agent automa
 | [fair-value](https://github.com/simonmak-ascent/fair-value) | IFRS/IVS valuation engine + MCP server (DCF, WACC/FF5, KMV, derivatives) |
 | [esg-hub](https://github.com/simonmak-ascent/esg-hub) | ESG knowledge &amp; reporting platform + public API + MCP server |
 | [hkex-filing-scraper](https://github.com/simonmak-ascent/hkex-filing-scraper) | HKEx regulatory filings → SurrealDB with PDF extraction &amp; graph linking |
-| [opencode-workbench](https://github.com/simonmak-ascent/opencode-workbench) | One-command reproducibility for an AI-agent workstation |
-| [depression-sensitive-web-content](https://github.com/simonmak-ascent/depression-sensitive-web-content) | Cognitive accessibility &amp; emotional-safety auditing skill |
 
-> Also private: `valuation-data-mcp` — cited, deterministic valuation inputs for the calculators above (keyed MCP server, read-only over the valuation database).
+> Also private: `opencode-workbench` — one-command reproducibility for an AI-agent workstation.
 
 ## MCP servers
 
