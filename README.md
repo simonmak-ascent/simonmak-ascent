@@ -65,7 +65,7 @@ Practical, rigorous tools for ESG, valuation, accessibility, and AI-agent automa
 
 Published to the official MCP Registry under `com.ascent-partners/*`:
 
-`startup-valuation` · `intangible-valuation` · `hkex-filings` · `esg-hub` · `vision-driven-design` · `opencode-workbench`
+`startup-valuation` · `intangible-valuation` · `fair-value` · `hkex-filings` · `esg-hub` · `coso-mcp` · `vision-driven-design`
 
 ---
 
